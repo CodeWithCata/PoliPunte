@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PoliPunte — brief intern pentru campania „Un loc în cămin poate schimba un destin!”</title>
+<meta name="description" content="Prototip demonstrativ: transformă interesul pentru campania HIPOLITECH într-un brief de o pagină pentru cine decide, cu fapte oficiale și fără promisiuni.">
+<meta property="og:title" content="PoliPunte — brief intern de o pagină"><meta property="og:description" content="Fapte oficiale, cifre puse în context, fără promisiuni. Prototip demonstrativ.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<style>
+:root{--ink:#0F1B33;--navy:#14284B;--bg:#F7F8FA;--line:#E3E6EC;--mute:#4B5870;--amb:#F2A33A;--sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font:16px/1.6 var(--sans);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+h1,h2,h3{margin:0;letter-spacing:-.03em;line-height:1.08;font-weight:800}h1:focus,h2:focus{outline:0}
+a{color:inherit}:focus-visible{outline:3px solid #2F5FD0;outline-offset:2px}
+.w{max-width:1240px;margin:0 auto;padding:0 clamp(18px,4vw,48px)}
+.rib{background:var(--ink);color:#fff;font-size:.84rem;font-weight:600;padding:8px 16px;text-align:center;position:sticky;top:0;z-index:9}
+.hd{border-bottom:1px solid var(--line);background:#fff}.hdi{display:flex;justify-content:space-between;align-items:center;gap:8px 28px;flex-wrap:wrap;min-height:64px}
+.br{font-weight:800;font-size:1.2rem;letter-spacing:-.03em;text-decoration:none;display:flex;gap:9px;align-items:center}
+.st{display:flex;gap:6px 26px;list-style:none;margin:0;padding:0;font-size:.9rem;color:var(--mute);flex-wrap:wrap}
+.st li{padding:6px 0;border-bottom:2px solid transparent}.st [aria-current]{color:var(--ink);font-weight:700;border-color:var(--amb)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:8px;border:1px solid #CBD1DC;background:#fff;color:var(--ink);font:700 1rem var(--sans);cursor:pointer;text-decoration:none}
+.btn:hover{background:#F1F3F7}.btn.p{background:var(--amb);border-color:var(--amb)}.btn.p:hover{background:#E4952A}
+.btn.l{border:0;background:none;text-decoration:underline;text-underline-offset:3px;padding:0 6px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tg{font-size:.78rem;color:var(--mute);white-space:nowrap}.tg:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c);margin-right:6px}
+/* hero */
+.hb{background:#F5F1E6 url(assets/hero-bg.jpg) right center/cover no-repeat;min-height:clamp(420px,44vw,640px);display:flex;align-items:center}.hero{padding:clamp(36px,6vw,84px) clamp(18px,4vw,48px);width:100%}.hero>div{max-width:min(560px,48%)}.ex{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px);align-items:center}.ex h2{margin-bottom:12px}.ex img{width:100%;border-radius:10px;border:1px solid var(--line);margin-bottom:18px}.ex p{max-width:32em}
+.hero h1{font-size:clamp(2.3rem,4.8vw,3.9rem);max-width:13ch}.hero p{font-size:1.18rem;color:#33415C;max-width:34em;margin:20px 0 28px}
+.plate{background:var(--navy);border-radius:14px;padding:clamp(18px,3vw,36px) clamp(14px,3vw,36px) 0;overflow:hidden;position:relative}
+.plate svg{position:absolute;left:0;bottom:0;width:100%;opacity:.5}
+.pv{position:relative;background:#fff;border-radius:8px 8px 0 0;padding:22px 24px 26px;font:.92rem/1.55 Georgia,serif;box-shadow:0 -1px 0 rgba(255,255,255,.2)}
+.pv b.k{font:700 .8rem var(--sans);color:var(--mute)}.pv h3{font:800 1.15rem/1.2 var(--sans);margin:4px 0 12px}
+.pv .m{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:7px 0;font-family:var(--sans)}.pv .m strong{font-size:1.02rem}
+/* bands */
+.dark{background:var(--navy);color:#fff;padding:clamp(40px,6vw,72px) 0}.dark h2{font-size:clamp(1.6rem,3vw,2.3rem);max-width:20ch}
+.seq{display:grid;grid-template-columns:repeat(3,1fr);margin-top:34px;list-style:none;padding:0;border-top:1px solid rgba(255,255,255,.25)}
+.seq li{padding:20px 28px 0 0}.seq li+li{padding-left:28px;border-left:1px solid rgba(255,255,255,.18)}.seq b{display:block;font-size:1.25rem;margin-bottom:4px}.seq span{color:#C8D1E4}.seq i{font:800 2rem/1 var(--sans);color:var(--amb);font-style:normal;display:block;margin-bottom:10px}
+.sec{padding:clamp(40px,6vw,72px) 0}.sec h2{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:22px}
+.ft{width:100%;border-collapse:collapse}.ft th,.ft td{text-align:left;padding:13px 16px 13px 0;border-top:1px solid var(--line);vertical-align:top}.ft th{width:34%;font-weight:600;color:var(--mute)}.ft td:last-child{width:170px}
+.note{color:var(--mute);font-size:.9rem;margin-top:14px;max-width:60em}
+/* form */
+.fg{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,1fr);gap:clamp(24px,5vw,72px);padding:clamp(28px,5vw,60px) 0}
+.fg h2{font-size:clamp(1.7rem,3vw,2.4rem);margin-bottom:24px}
+label,legend{font-weight:700;display:block;margin:20px 0 6px;padding:0}fieldset{border:0;padding:0;margin:0}
+input[type=text],select,textarea{width:100%;min-height:48px;font:1rem var(--sans);padding:10px 12px;border:1px solid #AEB6C5;border-radius:8px;background:#fff;color:var(--ink)}
+.hp{color:var(--mute);font-size:.88rem;margin:5px 0 0}.er{color:#B42318;font-weight:600;font-size:.92rem;margin:6px 0 0}
+.ck{display:inline-flex;align-items:center;gap:8px;margin:4px 16px 4px 0;font-weight:400;min-height:44px}.ck input{width:20px;height:20px}
+.aside{border-left:1px solid var(--line);padding-left:clamp(20px,4vw,48px)}.aside h3{font-size:1.1rem;margin-bottom:10px}.aside img{width:100%;border-radius:10px;border:1px solid var(--line);margin-bottom:18px}
+/* result */
+.rg{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:32px;align-items:start;padding:28px 0 56px}
+body.r{background:var(--bg)}
+.doc{background:#fff;border:1px solid var(--line);padding:clamp(22px,4vw,48px);font:1rem/1.7 Georgia,"Times New Roman",serif;box-shadow:0 18px 40px -28px rgba(15,27,51,.35)}
+.doc h2{font:800 1.5rem/1.2 var(--sans);margin-bottom:4px}.doc h3{font:700 .95rem var(--sans);margin:22px 0 4px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.doc p,.doc ul,.doc ol{margin:4px 0}.doc .mt{font:.88rem var(--sans);color:var(--mute)}
+.warn{background:#FFF6E3;border-left:3px solid var(--amb);padding:8px 12px;font:.92rem var(--sans);margin:8px 0}
+.side{position:sticky;top:50px;display:grid;gap:26px}.side h3{font-size:1.05rem;margin-bottom:10px}
+.lr{margin:12px 0}.lt{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.9rem}.lt strong{font-size:1.2rem}
+.bar{height:6px;background:#DDE2EB;border-radius:3px;margin-top:5px}.bar i{display:block;height:100%;min-width:2px;background:var(--navy);border-radius:3px}
+.lg{display:flex;list-style:none;padding:0;margin:0;font-size:.82rem;color:var(--mute)}.lg li{flex:1;padding:6px 4px;border-top:3px solid #CBD1DC}.lg .on{border-color:var(--amb);color:var(--ink);font-weight:700}
+.panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px}
+mark{background:#FFE1A8;border-radius:3px;padding:0 2px}textarea{min-height:92px}
+.ok{color:#1E8E5A;font-weight:700}.fl{font-size:.9rem;margin:6px 0;padding-left:12px;border-left:3px solid var(--amb)}
+/* footer + test */
+.tst{background:var(--bg);border-top:1px solid var(--line)}.tst summary{cursor:pointer;font-weight:700;padding:16px 0;min-height:48px}.tst ol{margin:0 0 18px;padding-left:20px}
+footer{background:var(--navy);color:#C8D1E4;padding:30px 0;font-size:.9rem}footer .tg{color:#C8D1E4}footer a{color:#fff}
+#stt{background:#fff;border:2px solid var(--ink);padding:14px;margin:16px 0;font:.85rem/1.5 ui-monospace,Consolas,monospace;white-space:pre-wrap}
+.tt{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;z-index:20}
+@media(max-width:900px){.hb{background-size:175% auto;background-position:78% 100%}.hero{padding-bottom:50vw}.hero>div{max-width:none}.ex{grid-template-columns:1fr}.fg,.rg{grid-template-columns:1fr}.aside{border:0;padding:0}.side{position:static}.seq{grid-template-columns:1fr}.seq li+li{padding-left:0;border:0}.ft th,.ft td{display:block;width:auto!important;border:0;padding:2px 0}.ft tr{display:block;border-top:1px solid var(--line);padding:12px 0}.act{position:sticky;bottom:0;background:var(--bg);padding:10px 0;z-index:5}}
+@media print{@page{size:A4;margin:14mm}.rib,.hd,.side,.act,.tst,footer,#s0,#s1,.no{display:none!important}body{background:#fff}.rg{display:block;padding:0}.doc{border:0;box-shadow:0;padding:0;font-size:9.6pt;line-height:1.4}.doc h3{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.act .btn:not(.p){font-weight:600;color:var(--mute)}.lt strong{font-size:1.9rem;letter-spacing:-.03em;line-height:1.1}footer a,.tst a{display:inline-block;padding:12px 0}
+@media(min-width:901px){.hero>div{background:rgba(247,243,234,.93);padding:clamp(24px,3vw,40px);border-radius:16px;box-shadow:0 24px 50px -32px rgba(15,27,51,.55)}.hero h1{font-size:clamp(2.2rem,4vw,3.4rem)}.hero p{margin:16px 0 24px}}
+@media(max-width:900px){.hb{background-image:url(assets/hero-bg-m.jpg);background-size:100% auto;background-position:center bottom}.hero{padding-bottom:calc(56vw + 28px)}}
+.rg,.fg{padding-left:clamp(18px,4vw,48px);padding-right:clamp(18px,4vw,48px)}
+.big{display:flex;flex-direction:column;gap:2px}.big strong{font-size:3.2rem;line-height:1;letter-spacing:-.04em}.big span{color:var(--mute)}details.more,details.opt,.panel details{margin-top:10px}details summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}details.more .lr{margin:8px 0}details.more .lt strong{font-size:1.3rem}
+details summary::-webkit-details-marker{display:none}details summary::before{content:"▸";margin-right:8px;color:var(--amb)}details[open] summary::before{content:"▾"}
+</style></head><body>
+<noscript><p style="padding:16px">PoliPunte are nevoie de JavaScript. Este un prototip demonstrativ, fără donații sau plăți.</p></noscript>
+<div class="rib">DEMO — nu se efectuează nicio donație sau plată. Datele rămân în browser.</div>
+<header class="hd"><div class="w hdi"><a class="br" href="#" id="home"><img src="assets/logo.png" width="28" height="28" alt="">PoliPunte</a>
+<ol class="st" id="st"><li>Despre campanie</li><li>Datele tale</li><li>Brief-ul tău</li></ol></div></header>
+<pre id="stt" class="w" hidden></pre>
+<main>
+<section id="s0">
+<div class="hb"><div class="w hero"><div><h1 tabindex="-1">Un brief de o pagină pentru cine decide.</h1>
+<p>PoliPunte te ajută să transformi interesul pentru campania „Un loc în cămin poate schimba un destin!” într-un document intern pe care îl poți trimite mai departe: fapte oficiale, suma pusă în context, fără promisiuni.</p>
+<div class="row"><button class="btn p" id="go">Începe</button><a class="btn" href="https://fundatia.upb.ro/proiecte-si-evenimente/un-loc-in-camin-poate-schimba-un-destin/" target="_blank" rel="noopener">Pagina oficială a Fundației</a></div></div>
+</div></div><div class="w sec ex"><div class="plate-wrap"><div class="plate"><svg viewBox="0 0 600 120" aria-hidden="true"><path d="M0 110h600M40 110a70 70 0 0 1 140 0M180 110a90 90 0 0 1 180 0M360 110a70 70 0 0 1 140 0" stroke="#F2A33A" stroke-width="2" fill="none"/></svg>
+<div class="pv" id="pv" aria-label="Exemplu de brief"></div></div></div><div><h2>Așa arată rezultatul</h2><p>Un brief de o pagină cu faptele oficiale, argumentul pentru rolul ales și suma pusă în context, fiecare cifră cu sursa ei. Exemplul din stânga este calculat pentru o companie fictivă.</p><div class="row"><button class="btn p" id="go2">Încearcă cu exemplul</button></div></div></div><div class="dark"><div class="w"><h2>Trei pași, sub un minut</h2><ol class="seq">
+<li><i>1</i><b>Citești faptele oficiale</b><span>Cifrele vin din sursa Fundației, fiecare cu sursa ei.</span></li>
+<li><i>2</i><b>Completezi trei câmpuri</b><span>O companie fictivă, rolul celui care decide, o sumă orientativă.</span></li>
+<li><i>3</i><b>Trimiți brief-ul</b><span>O pagină, adaptată rolului, verificată de Claims Guard.</span></li></ol></div></div>
+<div class="w sec"><h2>Ce spune sursa oficială</h2><table class="ft"><tbody>
+<tr><th>Inițiator</th><td>Fundația Universității Politehnica din București – HIPOLITECH</td><td><span class="tg" style="--c:#1E8E5A">Oficial</span></td></tr>
+<tr><th>Scop</th><td>Sprijinirea construirii unui cămin studențesc prin contribuții private</td><td><span class="tg" style="--c:#1E8E5A">Oficial</span></td></tr>
+<tr><th>Prima etapă</th><td>1.250.000 lei, pentru proiectare, avize și autorizații (estimare)</td><td><span class="tg" style="--c:#1E8E5A">Oficial</span></td></tr>
+<tr><th>Investiția totală</th><td>100.000.000 lei (estimare)</td><td><span class="tg" style="--c:#1E8E5A">Oficial</span></td></tr>
+<tr><th>Beneficiari prioritari</th><td>Studenți cu performanțe academice și studenți cu dificultăți financiare</td><td><span class="tg" style="--c:#1E8E5A">Oficial</span></td></tr>
+<tr><th>Ținta din exercițiu</th><td>250.000 lei brut, în 6 luni; scenariu de referință 500 × 100 lei + 20 × 10.000 lei</td><td><span class="tg" style="--c:#C98A0B">Ipoteză concurs</span></td></tr></tbody></table>
+<p class="note">Detaliile tehnice pot evolua în timpul proiectării; schițele și estimările nu sunt promisiuni ferme. PoliPunte nu este o pagină de plată: nu există donații, carduri sau date bancare. Etichetele: <span class="tg" style="--c:#1E8E5A">Oficial</span> din sursa Fundației · <span class="tg" style="--c:#C98A0B">Ipoteză concurs</span> valori impuse de regulile concursului · <span class="tg" style="--c:#2F5FD0">Estimare echipă</span> judecata noastră.</p></div>
+</section>
+
+<section id="s1" hidden><div class="w fg"><form id="f" novalidate><h2 tabindex="-1">Datele tale</h2>
+<label for="n">Numele companiei (fictive)</label><input type="text" id="n" maxlength="80" autocomplete="off"><p class="hp">Folosește o companie fictivă. Nu introduce date reale.</p><p class="er" id="e-n" role="alert"></p>
+<label for="r">Persoana de convins</label><select id="r"><option value="">Alege rolul</option><option value="ceo">Administrator / CEO</option><option value="csr">Responsabil CSR</option><option value="cfo">Director financiar</option><option value="hr">Resurse umane</option></select><p class="er" id="e-r" role="alert"></p>
+
+<label for="a">Contribuția orientativă (lei)</label><input type="text" id="a" inputmode="numeric" autocomplete="off"><p class="er" id="e-a" role="alert"></p>
+<details class="opt"><summary>Detalii opționale (domeniu, interese)</summary><label for="d">Domeniu (opțional)</label><select id="d"><option value="">—</option><option>IT</option><option>Industrie</option><option>Construcții</option><option>Servicii financiare</option><option>Retail</option><option>Energie</option><option>Altul</option></select><fieldset><legend>Interes principal (opțional, cel mult două)</legend><label class="ck"><input type="checkbox" name="i" value="Educație și acces">Educație și acces</label><label class="ck"><input type="checkbox" name="i" value="Comunitate">Comunitate</label><label class="ck"><input type="checkbox" name="i" value="Talente">Talente</label><label class="ck"><input type="checkbox" name="i" value="Reputație">Reputație</label><p class="er" id="e-i" role="alert"></p></fieldset></details>
+<div class="row" style="margin-top:26px"><button class="btn p" type="submit">Generează brief-ul</button><button class="btn l" type="button" id="ex1">Încarcă exemplu valid</button><button class="btn l" type="button" id="ex0">Încarcă exemplu invalid</button><button class="btn l" type="reset" id="rs">Resetează</button></div></form>
+<div class="aside"><img src="assets/aside.jpg" alt="" width="720" loading="lazy"><h3>Ce primești</h3><p>Un brief de o pagină: fapte oficiale, argumentul pentru rolul ales, suma pusă în context, obiecții probabile și ce nu se știe încă.</p><p class="hp">Nu se colectează date și nu se trimite nimic. Rezultatul se poate repeta cu un link.</p></div></div></section>
+
+<section id="s2" hidden><div class="w rg"><div><div class="row act no" style="margin-bottom:14px"><button class="btn p" id="cp">Copiază textul</button><button class="btn" id="pr">Printează / Salvează PDF</button><button class="btn" id="cl">Copiază linkul testului</button><button class="btn l" id="bk">Înapoi la formular</button></div><article class="doc" id="doc" aria-live="polite"></article></div>
+<aside class="side"><div><h3 tabindex="-1">Suma în context</h3><div id="lens"></div><p class="hp">Aritmetică, nu impact: fiecare procent are baza lui alături.</p></div>
+
+<div class="panel"><h3>Verificare formulări</h3><p id="auto" class="ok"></p><details><summary>Claims Guard: verifică un text de-al tău</summary><label for="ct" style="margin-top:10px">Textul tău</label><textarea id="ct"></textarea><div class="row" style="margin-top:8px"><button class="btn" id="vc">Verifică</button><button class="btn l" id="vx">Încearcă un exemplu</button></div><div id="cr" aria-live="polite"></div><p class="hp">Potrivire de tipare pe text, nu AI.</p></details></div></aside></div></section>
+</main>
+<details class="tst"><summary class="w">Cum testezi în 1 minut</summary><div class="w"><ol><li>Apasă „Începe”, apoi „Încarcă exemplu valid” și „Generează brief-ul”: Alfa Demo SRL, 10.000 lei dă 0,80% · 0,01% · 4,00% · 5,00% și „7/7 reguli respectate”.</li><li>Deschide „Claims Guard” (în dreapta) și apasă „Încearcă un exemplu”: se marchează „cumperi”, „o cameră”, „garantăm” și „deductibilitate”.</li><li>Apasă „Încarcă exemplu invalid”: apar erorile, fără brief.</li><li>Deschide <a href="?selftest=1">?selftest=1</a> pentru testele automate.</li></ol></div></details>
+<footer><div class="w"><p>Prototip realizat pentru AI-Powered Business Challenge 2026. Nu este afiliat oficial cu Fundația HIPOLITECH sau cu Universitatea POLITEHNICA din București și nu folosește siglele acestora. Nu există donații, plăți sau date reale.</p><p><a href="https://fundatia.upb.ro/proiecte-si-evenimente/un-loc-in-camin-poate-schimba-un-destin/" target="_blank" rel="noopener">Pagina oficială a campaniei</a></p></div></footer>
+<script>
+"use strict";
+const C={url:"https://fundatia.upb.ro/proiecte-si-evenimente/un-loc-in-camin-poate-schimba-un-destin/",title:"Un loc în cămin poate schimba un destin!",t1:1250000,tot:1e8,tg:250000,corp:200000};
+const B={o:["Oficial","#1E8E5A"],c:["Ipoteză concurs","#C98A0B"],e:["Estimare echipă","#2F5FD0"]};
+const ROLES={ceo:{n:"Administrator / CEO",a:"Campania are un scop clar (cămin pentru studenți performanți și studenți care au nevoie de sprijin) și o sursă publică verificabilă.",o:[["Ce primim în schimb?","Prototipul nu promite beneficii sau drepturi. Dacă și ce formă de recunoaștere există se clarifică direct cu Fundația."],["Care este riscul reputațional?","Informațiile se pot verifica pe pagina oficială; brief-ul nu prezintă estimările ca promisiuni."],["Se știe când se termină?","Nu. Estimările pot evolua pe parcursul proiectării; calendarul se clarifică cu Fundația."]]},
+csr:{n:"Responsabil CSR",a:"Educația și accesul la ea ca direcție de implicare; informații publice de citat în raportare.",o:[["Cum raportăm?","Se cere Fundației documentul care confirmă contribuția; prototipul nu emite documente reale."],["Se potrivește strategiei noastre?","Poate, dacă educația și accesul la studii sunt direcții ale companiei; se discută intern."],["Ce cifre putem cita?","Doar cele oficiale marcate ca atare: 1.250.000 lei pentru prima etapă și 100.000.000 lei investiție totală estimată."]]},
+cfo:{n:"Director financiar",a:"Cifre oficiale clare, suma pusă în context și o listă explicită a lucrurilor necunoscute.",o:[["Se deduce fiscal?","Nu afirmăm acest lucru. Tratamentul fiscal se verifică cu Fundația și cu un consultant fiscal."],["Pentru ce se folosește suma?","Prima etapă estimată este proiectarea, avizele și autorizațiile; utilizarea exactă se clarifică în scris cu Fundația."],["Se poate schimba suma ulterior?","Condițiile se stabilesc direct cu Fundația; brief-ul nu creează niciun angajament."]]},
+hr:{n:"Resurse umane",a:"Legătura cu POLITEHNICA ca sursă de absolvenți și interesul comun pentru studenți performanți.",o:[["Angajații primesc ceva?","Nu. O contribuție nu conferă locuri de cazare sau alte drepturi."],["Are legătură cu recrutarea?","Poate sprijini relația cu universitatea; nu există nicio promisiune de recrutare."],["Cum implicăm colegii?","Prin pagina oficială a campaniei; brief-ul nu colectează date."]]}};
+const INT={"Educație și acces":"interesul pentru educație și accesul la studii","Comunitate":"legătura cu comunitatea","Talente":"relația cu absolvenți și studenți performanți","Reputație":"coerența cu valorile publice ale companiei"};
+const RULES=[["R1",/cumperi|cumpara|achizitionezi|o camera|camere|un pat|un loc|metru patrat/g,"Suma reprezintă o contribuție la obiectivul comun de finanțare."],
+["R2",/rezervi|rezervare|loc garantat|prioritate la cazare/g,"Elimină: contribuțiile nu conferă drepturi de cazare."],
+["R3",/deductibil\w*|scutire|reducere de impozit|recuperezi taxe/g,"Tratamentul fiscal se verifică cu Fundația."],
+["R4",/partener oficial|sponsor oficial|in parteneriat cu/g,"Parteneriatele se confirmă direct cu Fundația."],
+["R5",/garantam|garantat|garantie|\bsigur\b|100%|fiecare leu/g,"Folosește „contribuie la…” sau „sprijină…”."],
+["R6",/ultima sansa|fara tine|ramane\w* pe drumuri|daca nu donezi/g,"Ton factual: ce este campania, ce se cere, ce este opțional."]];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fi=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const tag=k=>`<span class="tg" style="--c:${B[k][1]}">${B[k][0]}</span>`;
+const norm=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+/* pure functions */
+function parseAmount(s){let t=String(s).trim().replace(/\s/g,"");if(!t)return{e:"empty"};if(/^-?\d+(,|\.\d{1,2}$)\d*$/.test(t)&&!/^-?\d{1,3}(\.\d{3})+$/.test(t))return{e:"dec"};t=t.replace(/\./g,"");if(!/^-?\d+$/.test(t))return{e:"nan"};return{n:Number(t)}}
+function validate(f){const e={},w=[];if(f.n.length<2||f.n.length>60||!/\p{L}/u.test(f.n))e.n="Introdu numele unei companii fictive (minimum 2 caractere, cel mult 60).";
+if(!f.r||!ROLES[f.r])e.r="Alege rolul persoanei care decide.";if(f.i.length>2)e.i="Alege cel mult două interese.";
+const p=parseAmount(f.a);let S=0;if(p.e==="empty")e.a="Introdu o sumă orientativă în lei.";else if(p.e==="nan")e.a="Scrie suma ca număr întreg, de exemplu 10000.";else if(p.e==="dec")e.a="Folosește un număr întreg de lei.";
+else if(p.n<=0)e.a="Suma trebuie să fie mai mare decât 0.";else if(p.n>C.tot)e.a="Suma depășește valoarea totală estimată a proiectului (100.000.000 lei). Verifică cifra.";
+else{S=p.n;if(S>C.t1)w.push("Suma depășește estimarea pentru prima etapă. Brief-ul se generează; modul în care ar fi folosită o astfel de contribuție se clarifică direct cu Fundația.");if(S<1000)w.push("Pentru o sponsorizare corporate, suma este mică. Poate fi mai potrivită o donație individuală — vezi pagina oficială.")}
+return{e,w,S,ok:!Object.keys(e).length}}
+function lens(S){return[["prima etapă",C.t1,"o"],["investiția totală estimată",C.tot,"o"],["ținta concursului",C.tg,"c"],["ținta corporate din scenariul de referință",C.corp,"c"]].map(([l,b,k])=>({l,b,k,v:S*100/b}))}
+function fp(v){return v<0.01-1e-9?"sub 0,01%":v.toFixed(2).replace(".",",").replace(/\B(?=(\d{3})+(?!\d))/g,".")+"%"}
+function checkClaims(text){const t=norm(text),hits=[];RULES.forEach(([r,re,fix])=>{re.lastIndex=0;let m;while((m=re.exec(t)))hits.push({r,s:m.index,e:m.index+m[0].length,fix})});return hits.sort((a,b)=>a.s-b.s)}
+function buildBrief(f,v){const R=ROLES[f.r],L=lens(v.S),co=esc(f.n),d=new Date().toLocaleDateString("ro-RO");
+const ints=f.i.map(i=>INT[i]);const why=(f.d||ints.length)?`Poate fi relevant pentru ${co}${f.d?` având în vedere domeniul (${esc(f.d)})`:""}${ints.length?`${f.d?" și":" pentru că"} ${ints.join(" și ")}`:""}. Sunt ipoteze de discutat, nu fapte despre companie.`:"Domeniul și interesele nu au fost alese; argumentele sunt generale.";
+const S=(h,k,b)=>`<h3>${h}${k?tag(k):""}</h3>${b}`;
+return `<p class="mt">DEMO · ${d} · ${co}</p><h2>Brief intern: contribuție la campania „${C.title}”</h2>`+
+S("Pe scurt","",`<p>Se propune o discuție cu Fundația HIPOLITECH, nu o plată. Campania urmărește sprijinirea construirii unui cămin studențesc prin contribuții private. Brief-ul adună faptele oficiale și pune suma de ${fi(v.S)} lei în context.</p>`)+
+S("Fapte oficiale","o",`<ul><li>Inițiator: Fundația Universității Politehnica din București – HIPOLITECH.</li><li>Prima etapă: 1.250.000 lei, pentru proiectare, avize și autorizații (estimare).</li><li>Investiția totală: 100.000.000 lei (estimare).</li><li>Beneficiari prioritari: studenți cu performanțe academice și studenți cu dificultăți financiare.</li></ul><p class="mt">Detaliile pot evolua în timpul proiectării. Sursa: <a href="${C.url}" target="_blank" rel="noopener">pagina oficială a campaniei</a>.</p>`)+
+S("De ce se potrivește companiei","e",`<p>${why}</p>`)+S(`Argumentul pentru ${R.n.toLowerCase()}`,"e",`<p>${R.a}</p>`)+
+S("Contribuția în context","c",`<p>Suma de ${fi(v.S)} lei reprezintă:</p><ul>${L.map(x=>`<li>${fp(x.v)} din ${x.l} (${fi(x.b)} lei)${x.v>100?", peste baza de comparație":""} ${tag(x.k)}</li>`).join("")}</ul>`)+
+S("Obiecții probabile și răspunsuri factuale","e",`<ol>${R.o.map(([q,a])=>`<li><b>${q}</b> ${a}</li>`).join("")}</ol>`)+
+S("Ce nu știm încă (de verificat cu Fundația)","",`<ul><li>Tratamentul fiscal.</li><li>Formele de recunoaștere, dacă există.</li><li>Procedura de contribuție.</li><li>Calendarul.</li></ul>`)+
+S("Pași următori","",`<ol><li>Discuție internă.</li><li>Cerere de discuție către Fundație, prin pagina oficială.</li><li>Clarificarea condițiilor în scris.</li></ol>`)+
+`<p class="mt" data-nc>Document demonstrativ. Nu este angajament, nu este donație și nu conferă drept de cazare sau rezervare.</p>`}
+function selfTest(){const r=[],t=(n,c)=>r.push((c?"PASS ":"FAIL ")+n);const g=S=>lens(S).map(x=>fp(x.v)).join(" / ");
+t("parseAmount 10 000 / 10.000",parseAmount("10 000").n===10000&&parseAmount("10.000").n===10000);
+t("parseAmount text / decimal / gol",parseAmount("zece mii").e==="nan"&&parseAmount("1500,50").e==="dec"&&parseAmount("").e==="empty");
+const ok={n:"Alfa Demo SRL",d:"IT",r:"cfo",i:["Talente"],a:"10000"};t("validare exemplu valid",validate(ok).ok);
+t("invalid: -500, 0, 150000000",[ "-500","0","150000000"].every(a=>!validate({...ok,a}).ok));
+t("avertisment 2.000.000 și 300",validate({...ok,a:"2000000"}).w.length===1&&validate({...ok,a:"300"}).w.length===1);
+t("lupă 10.000",g(10000)==="0,80% / 0,01% / 4,00% / 5,00%");t("lupă 50.000",g(50000)==="4,00% / 0,05% / 20,00% / 25,00%");t("lupă 250.000",g(250000)==="20,00% / 0,25% / 100,00% / 125,00%");
+t("Claims Guard ≥4 semnalări",checkClaims("Cu 10.000 lei cumperi o cameră și garantăm deductibilitate").length>=4);
+t("brief valid trece 7/7",autoCheck(buildBrief(ok,validate(ok))).pass===7);return r}
+function autoCheck(html){let txt=html.replace(/<p class="mt" data-nc>.*?<\/p>/,"").replace(/<[^>]+>/g," ");txt=txt.split(C.title).join("");
+let bad=new Set(checkClaims(txt).map(h=>h.r));const r7=html.includes(C.url)&&/class="tg"/.test(html);return{pass:6-bad.size+(r7?1:0),bad:[...bad]}}
+/* DOM */
+if(typeof document!=="undefined"){const $=i=>document.getElementById(i);let cur=null;
+const show=n=>{["s0","s1","s2"].forEach((x,i)=>$(x).hidden=i!==n);[...$("st").children].forEach((li,i)=>i===n?li.setAttribute("aria-current","step"):li.removeAttribute("aria-current"));document.body.classList.toggle("r",n===2);scrollTo(0,0);const h=document.querySelector("#s"+n+" h1,#s"+n+" h2,#s"+n+" h3");if(h)h.focus({preventScroll:true})};
+const toast=m=>{const e=document.createElement("div");e.className="tt";e.setAttribute("role","status");e.textContent=m;document.body.append(e);setTimeout(()=>e.remove(),2000)};
+const getF=()=>({n:$("n").value.trim(),d:$("d").value,r:$("r").value,i:[...document.querySelectorAll("[name=i]:checked")].map(x=>x.value),a:$("a").value});
+const setF=f=>{$("n").value=f.n;$("d").value=f.d;$("r").value=f.r;$("a").value=f.a;document.querySelectorAll("[name=i]").forEach(c=>c.checked=f.i.includes(c.value))};
+const url=f=>{const p=new URLSearchParams({c:f.n,d:f.d,r:f.r,i:f.i.join("|"),s:f.a});return location.href.split("?")[0].split("#")[0]+"?"+p};
+const claimsHTML=t=>{if(!t.trim())return'<p class="hp">Lipește un text pentru a-l verifica.</p>';const h=checkClaims(t);if(!h.length)return'<p class="ok">Nu s-a semnalat nicio formulare.</p>';let o="",p=0;const keep=[];h.forEach(x=>{if(x.s>=p){o+=esc(t.slice(p,x.s))+"<mark>"+esc(t.slice(x.s,x.e))+"</mark>";p=x.e;keep.push(x)}});o+=esc(t.slice(p));return`<p>${o}</p>`+keep.map(x=>`<p class="fl"><b>${esc(t.slice(x.s,x.e))}</b> (${x.r}) → ${x.fix}</p>`).join("")};
+const gen=(f,v)=>{const html=buildBrief(f,v),L=lens(v.S),a=autoCheck(html);cur=f;
+$("doc").innerHTML=(v.w.length?v.w.map(x=>`<div class="warn" role="status">${x}</div>`).join(""):"")+html+(!(f.d||f.i.length)?"":"");
+$("lens").innerHTML=`<div class="big"><strong>${fp(L[0].v)}</strong><span>din ${fi(L[0].b)} lei, prima etapă (estimare)</span>${tag(L[0].k)}</div><details class="more"><summary>Alte comparații</summary>`+L.slice(1).map(x=>`<div class="lr"><div class="lt"><strong>${fp(x.v)}</strong><span>din ${fi(x.b)} lei</span>${tag(x.k)}</div><div class="bar"><i style="width:${Math.min(100,x.v)}%"></i></div>${x.v>100?'<span class="hp">peste baza de comparație</span>':""}</div>`).join("")+"</details>";
+$("auto").textContent=a.pass+"/7 reguli respectate"+(a.bad.length?" — de verificat: "+a.bad.join(", "):"");$("cr").innerHTML="";
+try{history.replaceState(null,"",url(f))}catch(e){}show(2)};
+const submit=()=>{const f=getF(),v=validate(f);["n","r","i","a"].forEach(k=>{$("e-"+k).textContent=v.e[k]||"";const el=$(k);if(el&&el.setAttribute)v.e[k]?el.setAttribute("aria-invalid","true"):el.removeAttribute("aria-invalid")});
+if(!v.ok){const k=["n","r","i","a"].find(k=>v.e[k]);(k==="i"?document.querySelector("[name=i]"):$(k)).focus();return}gen(f,v)};
+$("f").addEventListener("submit",e=>{e.preventDefault();submit()});
+$("go").onclick=()=>show(1);$("go2").onclick=()=>{show(1);$("ex1").click()};$("home").onclick=e=>{e.preventDefault();show(0)};$("bk").onclick=()=>show(1);
+$("ex1").onclick=()=>{setF({n:"Alfa Demo SRL",d:"IT",r:"cfo",i:["Talente"],a:"10000"});["n","r","i","a"].forEach(k=>$("e-"+k).textContent="")};
+$("ex0").onclick=()=>{setF({n:"",d:"",r:"",i:[],a:"zece mii"});submit()};
+$("f").addEventListener("reset",()=>["n","r","i","a"].forEach(k=>$("e-"+k).textContent=""));
+$("pr").onclick=()=>print();
+const cp=(t,m)=>{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast(m),()=>toast("Copierea nu a reușit; selectează textul manual."))};
+$("cp").onclick=()=>cp($("doc").innerText,"Textul a fost copiat");$("cl").onclick=()=>cp(cur?url(cur):location.href,"Linkul testului a fost copiat");
+
+$("vc").onclick=()=>$("cr").innerHTML=claimsHTML($("ct").value);
+$("vx").onclick=()=>{$("ct").value="Cu 10.000 lei cumperi o cameră și garantăm deductibilitate";$("cr").innerHTML=claimsHTML($("ct").value)};
+/* hero sample */
+{const S=10000,L=lens(S);$("pv").innerHTML=`<b class="k">Brief intern · Alfa Demo SRL · exemplu</b><h3>Contribuție la campania „${C.title}”</h3><div class="m"><span>Suma orientativă</span><strong>${fi(S)} lei</strong></div>`+L.map(x=>`<div class="m"><span>${fp(x.v)} din ${x.l}</span>${tag(x.k)}</div>`).join("")}
+/* URL state + selftest */
+const q=new URLSearchParams(location.search);
+if(q.get("selftest")){const r=selfTest();$("stt").hidden=false;$("stt").textContent=(r.every(x=>x.startsWith("PASS"))?"AUTOTEST: TOATE PASS\n":"AUTOTEST: EXISTĂ FAIL\n")+r.join("\n")}
+if(q.has("c")||q.has("s")){const f={n:q.get("c")||"",d:q.get("d")||"",r:q.get("r")||"",i:(q.get("i")||"").split("|").filter(Boolean),a:q.get("s")||""};setF(f);const v=validate(f);v.ok?gen(f,v):show(1)}else show(0)}
+</script></body></html>
